@@ -28,21 +28,13 @@ MAX_IMG_HEIGHT = 300   # alto máximo en píxeles
 # =========================
 
 # Diccionario que contiene los "nodos" de la historia.
-# Cada clave es un id de nodo (string), y cada valor es otro dict con:
+# Cada clave es un id de nodo, y cada valor es otro dict con:
 # - "texto": frase que se muestra.
 # - "imagen": nombre del archivo de imagen.
 # - "opciones": lista de opciones. Cada opción es un dict con:
 #       - "texto": texto del botón / opción.
 #       - "siguiente": id del nodo siguiente.
-#
-# EJEMPLO de imágenes que deberías crear y guardar en la misma carpeta:
-#   - gato_corriendo.png
-#   - gato_caja.png
-#   - gato_espacio.png
-#   - gato_carro.png
-#   - gato_durmiendo.png
-#   - gato_fiesta.png
-#   - gato_cohete.png
+
 
 HISTORIA = {
     "inicio": {
